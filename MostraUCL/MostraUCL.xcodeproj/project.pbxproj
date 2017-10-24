@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375E13B31F7AF83600CD50DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E13B21F7AF83600CD50DE /* AppDelegate.swift */; };
+		375E13B51F7AF83600CD50DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E13B41F7AF83600CD50DE /* ViewController.swift */; };
+		375E13B81F7AF83600CD50DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375E13B61F7AF83600CD50DE /* Main.storyboard */; };
+		375E13BA1F7AF83600CD50DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375E13B91F7AF83600CD50DE /* Assets.xcassets */; };
+		375E13BD1F7AF83600CD50DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375E13BB1F7AF83600CD50DE /* LaunchScreen.storyboard */; };
+		375E13C81F7AF83600CD50DE /* MostraUCLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E13C71F7AF83600CD50DE /* MostraUCLTests.swift */; };
+		375E13D31F7AF83600CD50DE /* MostraUCLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E13D21F7AF83600CD50DE /* MostraUCLUITests.swift */; };
+		3786C1021F7BEC53008B19E4 /* ForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3786C1011F7BEC53008B19E4 /* ForecastService.swift */; };
+		37BECAA91F7AF8D800FA3D53 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BECAA81F7AF8D800FA3D53 /* CurrentWeather.swift */; };
+		37D422311F7D6E27004FB2D9 /* CurrentWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D422301F7D6E27004FB2D9 /* CurrentWeatherViewController.swift */; };
+		396FCE514A0BA1A4F2C80ACA /* Pods_MostraUCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04E07CBB8234BE9EFC0689A /* Pods_MostraUCL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		375E13C41F7AF83600CD50DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375E13A71F7AF83600CD50DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 375E13AE1F7AF83600CD50DE;
+			remoteInfo = MostraUCL;
+		};
+		375E13CF1F7AF83600CD50DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375E13A71F7AF83600CD50DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 375E13AE1F7AF83600CD50DE;
+			remoteInfo = MostraUCL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A422EF1BDECC1FAA734ED27 /* Pods-MostraUCL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MostraUCL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MostraUCL/Pods-MostraUCL.debug.xcconfig"; sourceTree = "<group>"; };
+		375E13AF1F7AF83600CD50DE /* MostraUCL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MostraUCL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		375E13B21F7AF83600CD50DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		375E13B41F7AF83600CD50DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		375E13B71F7AF83600CD50DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		375E13B91F7AF83600CD50DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		375E13BC1F7AF83600CD50DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		375E13BE1F7AF83600CD50DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375E13C31F7AF83600CD50DE /* MostraUCLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MostraUCLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		375E13C71F7AF83600CD50DE /* MostraUCLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraUCLTests.swift; sourceTree = "<group>"; };
+		375E13C91F7AF83600CD50DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375E13CE1F7AF83600CD50DE /* MostraUCLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MostraUCLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		375E13D21F7AF83600CD50DE /* MostraUCLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraUCLUITests.swift; sourceTree = "<group>"; };
+		375E13D41F7AF83600CD50DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3786C1011F7BEC53008B19E4 /* ForecastService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastService.swift; sourceTree = "<group>"; };
+		37BECAA81F7AF8D800FA3D53 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		37D422301F7D6E27004FB2D9 /* CurrentWeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeatherViewController.swift; sourceTree = "<group>"; };
+		6F9A3F7A1C809B2EF4C1F743 /* Pods-MostraUCL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MostraUCL.release.xcconfig"; path = "Pods/Target Support Files/Pods-MostraUCL/Pods-MostraUCL.release.xcconfig"; sourceTree = "<group>"; };
+		E04E07CBB8234BE9EFC0689A /* Pods_MostraUCL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MostraUCL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		375E13AC1F7AF83600CD50DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396FCE514A0BA1A4F2C80ACA /* Pods_MostraUCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375E13C01F7AF83600CD50DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375E13CB1F7AF83600CD50DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		375E13A61F7AF83600CD50DE = {
+			isa = PBXGroup;
+			children = (
+				375E13B11F7AF83600CD50DE /* MostraUCL */,
+				375E13C61F7AF83600CD50DE /* MostraUCLTests */,
+				375E13D11F7AF83600CD50DE /* MostraUCLUITests */,
+				375E13B01F7AF83600CD50DE /* Products */,
+				9699E89DF2167D573CEA35A1 /* Pods */,
+				7E903C0F285781F0BCC47596 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		375E13B01F7AF83600CD50DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375E13AF1F7AF83600CD50DE /* MostraUCL.app */,
+				375E13C31F7AF83600CD50DE /* MostraUCLTests.xctest */,
+				375E13CE1F7AF83600CD50DE /* MostraUCLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		375E13B11F7AF83600CD50DE /* MostraUCL */ = {
+			isa = PBXGroup;
+			children = (
+				375E13B21F7AF83600CD50DE /* AppDelegate.swift */,
+				375E13B41F7AF83600CD50DE /* ViewController.swift */,
+				376FC35C1F7C2D180069E0FC /* Views */,
+				376FC35B1F7C2CFE0069E0FC /* Controllers */,
+				376FC35D1F7C2D350069E0FC /* Model */,
+				375E13B91F7AF83600CD50DE /* Assets.xcassets */,
+				375E13BB1F7AF83600CD50DE /* LaunchScreen.storyboard */,
+				375E13BE1F7AF83600CD50DE /* Info.plist */,
+			);
+			path = MostraUCL;
+			sourceTree = "<group>";
+		};
+		375E13C61F7AF83600CD50DE /* MostraUCLTests */ = {
+			isa = PBXGroup;
+			children = (
+				375E13C71F7AF83600CD50DE /* MostraUCLTests.swift */,
+				375E13C91F7AF83600CD50DE /* Info.plist */,
+			);
+			path = MostraUCLTests;
+			sourceTree = "<group>";
+		};
+		375E13D11F7AF83600CD50DE /* MostraUCLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				375E13D21F7AF83600CD50DE /* MostraUCLUITests.swift */,
+				375E13D41F7AF83600CD50DE /* Info.plist */,
+			);
+			path = MostraUCLUITests;
+			sourceTree = "<group>";
+		};
+		376FC35B1F7C2CFE0069E0FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37D422301F7D6E27004FB2D9 /* CurrentWeatherViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		376FC35C1F7C2D180069E0FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				375E13B61F7AF83600CD50DE /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		376FC35D1F7C2D350069E0FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37BECAA81F7AF8D800FA3D53 /* CurrentWeather.swift */,
+				3786C1011F7BEC53008B19E4 /* ForecastService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7E903C0F285781F0BCC47596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E04E07CBB8234BE9EFC0689A /* Pods_MostraUCL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9699E89DF2167D573CEA35A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A422EF1BDECC1FAA734ED27 /* Pods-MostraUCL.debug.xcconfig */,
+				6F9A3F7A1C809B2EF4C1F743 /* Pods-MostraUCL.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		375E13AE1F7AF83600CD50DE /* MostraUCL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375E13D71F7AF83600CD50DE /* Build configuration list for PBXNativeTarget "MostraUCL" */;
+			buildPhases = (
+				1904B9A1D1BF895FB2983CDA /* [CP] Check Pods Manifest.lock */,
+				375E13AB1F7AF83600CD50DE /* Sources */,
+				375E13AC1F7AF83600CD50DE /* Frameworks */,
+				375E13AD1F7AF83600CD50DE /* Resources */,
+				9A2B9B552A40FF415627F1AF /* [CP] Embed Pods Frameworks */,
+				3A50323A905504090A70C0A1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MostraUCL;
+			productName = MostraUCL;
+			productReference = 375E13AF1F7AF83600CD50DE /* MostraUCL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		375E13C21F7AF83600CD50DE /* MostraUCLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375E13DA1F7AF83600CD50DE /* Build configuration list for PBXNativeTarget "MostraUCLTests" */;
+			buildPhases = (
+				375E13BF1F7AF83600CD50DE /* Sources */,
+				375E13C01F7AF83600CD50DE /* Frameworks */,
+				375E13C11F7AF83600CD50DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375E13C51F7AF83600CD50DE /* PBXTargetDependency */,
+			);
+			name = MostraUCLTests;
+			productName = MostraUCLTests;
+			productReference = 375E13C31F7AF83600CD50DE /* MostraUCLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		375E13CD1F7AF83600CD50DE /* MostraUCLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375E13DD1F7AF83600CD50DE /* Build configuration list for PBXNativeTarget "MostraUCLUITests" */;
+			buildPhases = (
+				375E13CA1F7AF83600CD50DE /* Sources */,
+				375E13CB1F7AF83600CD50DE /* Frameworks */,
+				375E13CC1F7AF83600CD50DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375E13D01F7AF83600CD50DE /* PBXTargetDependency */,
+			);
+			name = MostraUCLUITests;
+			productName = MostraUCLUITests;
+			productReference = 375E13CE1F7AF83600CD50DE /* MostraUCLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		375E13A71F7AF83600CD50DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bruno Vieira";
+				TargetAttributes = {
+					375E13AE1F7AF83600CD50DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					375E13C21F7AF83600CD50DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 375E13AE1F7AF83600CD50DE;
+					};
+					375E13CD1F7AF83600CD50DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 375E13AE1F7AF83600CD50DE;
+					};
+				};
+			};
+			buildConfigurationList = 375E13AA1F7AF83600CD50DE /* Build configuration list for PBXProject "MostraUCL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 375E13A61F7AF83600CD50DE;
+			productRefGroup = 375E13B01F7AF83600CD50DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				375E13AE1F7AF83600CD50DE /* MostraUCL */,
+				375E13C21F7AF83600CD50DE /* MostraUCLTests */,
+				375E13CD1F7AF83600CD50DE /* MostraUCLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		375E13AD1F7AF83600CD50DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E13BD1F7AF83600CD50DE /* LaunchScreen.storyboard in Resources */,
+				375E13BA1F7AF83600CD50DE /* Assets.xcassets in Resources */,
+				375E13B81F7AF83600CD50DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375E13C11F7AF83600CD50DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375E13CC1F7AF83600CD50DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1904B9A1D1BF895FB2983CDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MostraUCL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A50323A905504090A70C0A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MostraUCL/Pods-MostraUCL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A2B9B552A40FF415627F1AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MostraUCL/Pods-MostraUCL-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MostraUCL/Pods-MostraUCL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375E13AB1F7AF83600CD50DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3786C1021F7BEC53008B19E4 /* ForecastService.swift in Sources */,
+				37D422311F7D6E27004FB2D9 /* CurrentWeatherViewController.swift in Sources */,
+				375E13B51F7AF83600CD50DE /* ViewController.swift in Sources */,
+				37BECAA91F7AF8D800FA3D53 /* CurrentWeather.swift in Sources */,
+				375E13B31F7AF83600CD50DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375E13BF1F7AF83600CD50DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E13C81F7AF83600CD50DE /* MostraUCLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375E13CA1F7AF83600CD50DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E13D31F7AF83600CD50DE /* MostraUCLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		375E13C51F7AF83600CD50DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 375E13AE1F7AF83600CD50DE /* MostraUCL */;
+			targetProxy = 375E13C41F7AF83600CD50DE /* PBXContainerItemProxy */;
+		};
+		375E13D01F7AF83600CD50DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 375E13AE1F7AF83600CD50DE /* MostraUCL */;
+			targetProxy = 375E13CF1F7AF83600CD50DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		375E13B61F7AF83600CD50DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375E13B71F7AF83600CD50DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		375E13BB1F7AF83600CD50DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375E13BC1F7AF83600CD50DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		375E13D51F7AF83600CD50DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		375E13D61F7AF83600CD50DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		375E13D81F7AF83600CD50DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A422EF1BDECC1FAA734ED27 /* Pods-MostraUCL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MostraUCL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.MostraUCL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		375E13D91F7AF83600CD50DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9A3F7A1C809B2EF4C1F743 /* Pods-MostraUCL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MostraUCL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.MostraUCL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		375E13DB1F7AF83600CD50DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MostraUCLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.MostraUCLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MostraUCL.app/MostraUCL";
+			};
+			name = Debug;
+		};
+		375E13DC1F7AF83600CD50DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MostraUCLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.MostraUCLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MostraUCL.app/MostraUCL";
+			};
+			name = Release;
+		};
+		375E13DE1F7AF83600CD50DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MostraUCLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.MostraUCLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MostraUCL;
+			};
+			name = Debug;
+		};
+		375E13DF1F7AF83600CD50DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MostraUCLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.MostraUCLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MostraUCL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		375E13AA1F7AF83600CD50DE /* Build configuration list for PBXProject "MostraUCL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375E13D51F7AF83600CD50DE /* Debug */,
+				375E13D61F7AF83600CD50DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375E13D71F7AF83600CD50DE /* Build configuration list for PBXNativeTarget "MostraUCL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375E13D81F7AF83600CD50DE /* Debug */,
+				375E13D91F7AF83600CD50DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375E13DA1F7AF83600CD50DE /* Build configuration list for PBXNativeTarget "MostraUCLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375E13DB1F7AF83600CD50DE /* Debug */,
+				375E13DC1F7AF83600CD50DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375E13DD1F7AF83600CD50DE /* Build configuration list for PBXNativeTarget "MostraUCLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375E13DE1F7AF83600CD50DE /* Debug */,
+				375E13DF1F7AF83600CD50DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 375E13A71F7AF83600CD50DE /* Project object */;
+}

@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3731D6141F7EC720005E13DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3731D6131F7EC720005E13DB /* AppDelegate.swift */; };
+		3731D6161F7EC720005E13DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3731D6151F7EC720005E13DB /* ViewController.swift */; };
+		3731D6191F7EC720005E13DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3731D6171F7EC720005E13DB /* Main.storyboard */; };
+		3731D61B1F7EC720005E13DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3731D61A1F7EC720005E13DB /* Assets.xcassets */; };
+		3731D61E1F7EC720005E13DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3731D61C1F7EC720005E13DB /* LaunchScreen.storyboard */; };
+		3731D6291F7EC720005E13DB /* MostraUCL3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3731D6281F7EC720005E13DB /* MostraUCL3Tests.swift */; };
+		3731D6341F7EC720005E13DB /* MostraUCL3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3731D6331F7EC720005E13DB /* MostraUCL3UITests.swift */; };
+		37587C2A1F841E35005C9C06 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37587C291F841E35005C9C06 /* Keys.swift */; };
+		3774F42E1F82C2AE00D82C80 /* GETSET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3774F42D1F82C2AD00D82C80 /* GETSET.swift */; };
+		FB6A130D5DC25F729A9C09CF /* Pods_MostraUCL3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25DC0F89B00F6B50BF65448 /* Pods_MostraUCL3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3731D6251F7EC720005E13DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3731D6081F7EC720005E13DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3731D60F1F7EC720005E13DB;
+			remoteInfo = MostraUCL3;
+		};
+		3731D6301F7EC720005E13DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3731D6081F7EC720005E13DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3731D60F1F7EC720005E13DB;
+			remoteInfo = MostraUCL3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3731D6101F7EC720005E13DB /* MostraUCL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MostraUCL3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3731D6131F7EC720005E13DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3731D6151F7EC720005E13DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3731D6181F7EC720005E13DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3731D61A1F7EC720005E13DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3731D61D1F7EC720005E13DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3731D61F1F7EC720005E13DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3731D6241F7EC720005E13DB /* MostraUCL3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MostraUCL3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3731D6281F7EC720005E13DB /* MostraUCL3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraUCL3Tests.swift; sourceTree = "<group>"; };
+		3731D62A1F7EC720005E13DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3731D62F1F7EC720005E13DB /* MostraUCL3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MostraUCL3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3731D6331F7EC720005E13DB /* MostraUCL3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraUCL3UITests.swift; sourceTree = "<group>"; };
+		3731D6351F7EC720005E13DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37587C291F841E35005C9C06 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		3774F42D1F82C2AD00D82C80 /* GETSET.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETSET.swift; sourceTree = "<group>"; };
+		6CEF28285B60B5CBF3FA0453 /* Pods-MostraUCL3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MostraUCL3.release.xcconfig"; path = "Pods/Target Support Files/Pods-MostraUCL3/Pods-MostraUCL3.release.xcconfig"; sourceTree = "<group>"; };
+		89D174F0E6EAB9780E8EC579 /* Pods-MostraUCL3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MostraUCL3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MostraUCL3/Pods-MostraUCL3.debug.xcconfig"; sourceTree = "<group>"; };
+		A25DC0F89B00F6B50BF65448 /* Pods_MostraUCL3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MostraUCL3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3731D60D1F7EC720005E13DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6A130D5DC25F729A9C09CF /* Pods_MostraUCL3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3731D6211F7EC720005E13DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3731D62C1F7EC720005E13DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1154C9C21120F73440C2BA62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A25DC0F89B00F6B50BF65448 /* Pods_MostraUCL3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3731D6071F7EC720005E13DB = {
+			isa = PBXGroup;
+			children = (
+				3731D6121F7EC720005E13DB /* MostraUCL3 */,
+				3731D6271F7EC720005E13DB /* MostraUCL3Tests */,
+				3731D6321F7EC720005E13DB /* MostraUCL3UITests */,
+				3731D6111F7EC720005E13DB /* Products */,
+				3B699DBFBC740B021C98D68E /* Pods */,
+				1154C9C21120F73440C2BA62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3731D6111F7EC720005E13DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3731D6101F7EC720005E13DB /* MostraUCL3.app */,
+				3731D6241F7EC720005E13DB /* MostraUCL3Tests.xctest */,
+				3731D62F1F7EC720005E13DB /* MostraUCL3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3731D6121F7EC720005E13DB /* MostraUCL3 */ = {
+			isa = PBXGroup;
+			children = (
+				3731D6131F7EC720005E13DB /* AppDelegate.swift */,
+				3731D6151F7EC720005E13DB /* ViewController.swift */,
+				3731D6171F7EC720005E13DB /* Main.storyboard */,
+				3774F42D1F82C2AD00D82C80 /* GETSET.swift */,
+				3731D61A1F7EC720005E13DB /* Assets.xcassets */,
+				37587C291F841E35005C9C06 /* Keys.swift */,
+				3731D61C1F7EC720005E13DB /* LaunchScreen.storyboard */,
+				3731D61F1F7EC720005E13DB /* Info.plist */,
+			);
+			path = MostraUCL3;
+			sourceTree = "<group>";
+		};
+		3731D6271F7EC720005E13DB /* MostraUCL3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3731D6281F7EC720005E13DB /* MostraUCL3Tests.swift */,
+				3731D62A1F7EC720005E13DB /* Info.plist */,
+			);
+			path = MostraUCL3Tests;
+			sourceTree = "<group>";
+		};
+		3731D6321F7EC720005E13DB /* MostraUCL3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3731D6331F7EC720005E13DB /* MostraUCL3UITests.swift */,
+				3731D6351F7EC720005E13DB /* Info.plist */,
+			);
+			path = MostraUCL3UITests;
+			sourceTree = "<group>";
+		};
+		3B699DBFBC740B021C98D68E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89D174F0E6EAB9780E8EC579 /* Pods-MostraUCL3.debug.xcconfig */,
+				6CEF28285B60B5CBF3FA0453 /* Pods-MostraUCL3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3731D60F1F7EC720005E13DB /* MostraUCL3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3731D6381F7EC720005E13DB /* Build configuration list for PBXNativeTarget "MostraUCL3" */;
+			buildPhases = (
+				D48634FED4B4043F115E5775 /* [CP] Check Pods Manifest.lock */,
+				3731D60C1F7EC720005E13DB /* Sources */,
+				3731D60D1F7EC720005E13DB /* Frameworks */,
+				3731D60E1F7EC720005E13DB /* Resources */,
+				1D2627EE01A5350E3303D39D /* [CP] Embed Pods Frameworks */,
+				FCBC2FE6D2EC66BA9C0C7D49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MostraUCL3;
+			productName = MostraUCL3;
+			productReference = 3731D6101F7EC720005E13DB /* MostraUCL3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3731D6231F7EC720005E13DB /* MostraUCL3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3731D63B1F7EC720005E13DB /* Build configuration list for PBXNativeTarget "MostraUCL3Tests" */;
+			buildPhases = (
+				3731D6201F7EC720005E13DB /* Sources */,
+				3731D6211F7EC720005E13DB /* Frameworks */,
+				3731D6221F7EC720005E13DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3731D6261F7EC720005E13DB /* PBXTargetDependency */,
+			);
+			name = MostraUCL3Tests;
+			productName = MostraUCL3Tests;
+			productReference = 3731D6241F7EC720005E13DB /* MostraUCL3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3731D62E1F7EC720005E13DB /* MostraUCL3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3731D63E1F7EC720005E13DB /* Build configuration list for PBXNativeTarget "MostraUCL3UITests" */;
+			buildPhases = (
+				3731D62B1F7EC720005E13DB /* Sources */,
+				3731D62C1F7EC720005E13DB /* Frameworks */,
+				3731D62D1F7EC720005E13DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3731D6311F7EC720005E13DB /* PBXTargetDependency */,
+			);
+			name = MostraUCL3UITests;
+			productName = MostraUCL3UITests;
+			productReference = 3731D62F1F7EC720005E13DB /* MostraUCL3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3731D6081F7EC720005E13DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bruno Vieira";
+				TargetAttributes = {
+					3731D60F1F7EC720005E13DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					3731D6231F7EC720005E13DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3731D60F1F7EC720005E13DB;
+					};
+					3731D62E1F7EC720005E13DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3731D60F1F7EC720005E13DB;
+					};
+				};
+			};
+			buildConfigurationList = 3731D60B1F7EC720005E13DB /* Build configuration list for PBXProject "MostraUCL3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3731D6071F7EC720005E13DB;
+			productRefGroup = 3731D6111F7EC720005E13DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3731D60F1F7EC720005E13DB /* MostraUCL3 */,
+				3731D6231F7EC720005E13DB /* MostraUCL3Tests */,
+				3731D62E1F7EC720005E13DB /* MostraUCL3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3731D60E1F7EC720005E13DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3731D61E1F7EC720005E13DB /* LaunchScreen.storyboard in Resources */,
+				3731D61B1F7EC720005E13DB /* Assets.xcassets in Resources */,
+				3731D6191F7EC720005E13DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3731D6221F7EC720005E13DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3731D62D1F7EC720005E13DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D2627EE01A5350E3303D39D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MostraUCL3/Pods-MostraUCL3-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MostraUCL3/Pods-MostraUCL3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D48634FED4B4043F115E5775 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MostraUCL3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCBC2FE6D2EC66BA9C0C7D49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MostraUCL3/Pods-MostraUCL3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3731D60C1F7EC720005E13DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3774F42E1F82C2AE00D82C80 /* GETSET.swift in Sources */,
+				37587C2A1F841E35005C9C06 /* Keys.swift in Sources */,
+				3731D6161F7EC720005E13DB /* ViewController.swift in Sources */,
+				3731D6141F7EC720005E13DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3731D6201F7EC720005E13DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3731D6291F7EC720005E13DB /* MostraUCL3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3731D62B1F7EC720005E13DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3731D6341F7EC720005E13DB /* MostraUCL3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3731D6261F7EC720005E13DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3731D60F1F7EC720005E13DB /* MostraUCL3 */;
+			targetProxy = 3731D6251F7EC720005E13DB /* PBXContainerItemProxy */;
+		};
+		3731D6311F7EC720005E13DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3731D60F1F7EC720005E13DB /* MostraUCL3 */;
+			targetProxy = 3731D6301F7EC720005E13DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3731D6171F7EC720005E13DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3731D6181F7EC720005E13DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3731D61C1F7EC720005E13DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3731D61D1F7EC720005E13DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3731D6361F7EC720005E13DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3731D6371F7EC720005E13DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3731D6391F7EC720005E13DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D174F0E6EAB9780E8EC579 /* Pods-MostraUCL3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MostraUCL3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.MostraUCL3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3731D63A1F7EC720005E13DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CEF28285B60B5CBF3FA0453 /* Pods-MostraUCL3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MostraUCL3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.MostraUCL3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3731D63C1F7EC720005E13DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MostraUCL3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.MostraUCL3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MostraUCL3.app/MostraUCL3";
+			};
+			name = Debug;
+		};
+		3731D63D1F7EC720005E13DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MostraUCL3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.MostraUCL3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MostraUCL3.app/MostraUCL3";
+			};
+			name = Release;
+		};
+		3731D63F1F7EC720005E13DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MostraUCL3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.MostraUCL3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MostraUCL3;
+			};
+			name = Debug;
+		};
+		3731D6401F7EC720005E13DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MostraUCL3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.MostraUCL3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MostraUCL3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3731D60B1F7EC720005E13DB /* Build configuration list for PBXProject "MostraUCL3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3731D6361F7EC720005E13DB /* Debug */,
+				3731D6371F7EC720005E13DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3731D6381F7EC720005E13DB /* Build configuration list for PBXNativeTarget "MostraUCL3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3731D6391F7EC720005E13DB /* Debug */,
+				3731D63A1F7EC720005E13DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3731D63B1F7EC720005E13DB /* Build configuration list for PBXNativeTarget "MostraUCL3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3731D63C1F7EC720005E13DB /* Debug */,
+				3731D63D1F7EC720005E13DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3731D63E1F7EC720005E13DB /* Build configuration list for PBXNativeTarget "MostraUCL3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3731D63F1F7EC720005E13DB /* Debug */,
+				3731D6401F7EC720005E13DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3731D6081F7EC720005E13DB /* Project object */;
+}
